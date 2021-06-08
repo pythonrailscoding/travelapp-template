@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+	background: linear-gradient(90deg, rgba(54,217,182,1) 0%, rgba(32,152,126,1) 43%, rgba(0,212,255,1) 100%);
+	font-family: "Cabin", sans-serif;
+}
+
+#sp_id {
+	margin-left: 250px;
+}
+
+.nav {
+	height: 50px;
+	margin-bottom: 10px;
+	background: rgba(13, 85, 13, 0.4);
+}
+
+#nav_but {
+	float: right;
+	margin: 14px;
+	width: 150px;
+	border: solid;
+	border-color: blue;
+	background-color: steelblue;
+	color: #ffffff;
+	padding-bottom: 0px;
+}
+
+#nav_but_left {
+	float: left;
+	margin: 14px;
+	width: 350px;
+	border: solid;
+	border-color: rgba(13, 85, 13, 0.4);
+	height: 25px;
+	margin-top: 10px;
+	font-style: italic;
+	word-spacing: 5px;
+	font-weight: bold;
+	background-color: rgba(13, 85, 13, 0.4);
+	color: #ffffff;
+	padding-bottom: 0px;
+}
+
+#nav_lab {
+	margin-top: 10px;
+}
+
+.nav_fl {
+	padding: 10px;
+}
+
+#nav_but:hover {
+	float: right;
+	margin: 14px;
+	width: 150px;
+	border: solid;
+	border-color: blue;
+	background-color: lightsteelblue;
+	color: #000000;
+}
+
+hr {
+	width: 100%;
+}
+
+
+.card {
+
+}
+
+.grid-container {
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+}
+
+.grid-item {
+	grid-row-start: 1;
+  	grid-row-end: 3;
+  	background-color: #fff;
+  	margin: 5px;
+  	border: solid;
+  	height: 200px;
+}
+
+.grid-item:hover {
+	grid-row-start: 1;
+  	grid-row-end: 3;
+  	background-color: #fff;
+  	margin: 5px;
+  	border: solid;
+  	border-color: red;
+  	height: 200px;
+}
+
+#headers {
+	background-color: lightsteelblue;
+	padding-top: 1px;
+	padding-left: 2px;
+}
+
+.text {
+	padding: 3px;
+}
+
+.card {
+	height: 250px;
+	max-width: 1200px;
+	margin: auto;
+	border: solid;
+	border-color: rgba(0, 0, 0, 0);
+	background-color: #fff;
+	box-shadow: 6px 5px 10px 0px;
+}
+
+.card-text {
+	max-width: 1100px;
+	margin: auto;
+}
+
+footer {
+	height: 110px;
+	width: 100%;
+	border: solid;
+	background-color: rgba(13, 85, 13, 0.4);
+}
+
+.footer-text {
+	width: 500px;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.img-footer {
+	height: 22px;
+	width: 22px;
+	float: right;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+.img-footer-stack {
+	height: 26px;
+	width: 30px;
+	float: right;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
