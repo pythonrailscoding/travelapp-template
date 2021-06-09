@@ -2,15 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Cards</title>
+	<title>TravellApp!</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<button id="scrolltotop">
+		<i class="material-icons">arrow_upward</i>
+	</button>
 	<div class="nav">
 		<div id="nav_fl">
 			<button id="nav_but">Register</button>
-			<button id="nav_but">Contact</button>
-			<button id="nav_but">Home</button>
+			<button id="nav_but"><a href="contact.html" id="but_link">Contact</a></button>
+			<button id="nav_but"><a href="index.html" id="but_link">Home</a></button>
 			<button id="nav_but_left">Traveller: Travel and Feel The World!</button>
 		</div>
 	</div>
@@ -51,6 +56,98 @@
 	  	</div>
 	</div>
 	<hr><br>
+	<section>
+		<center>
+			<div id="sect-crd">
+				About some of our Tourist Places.....
+			</div>
+		</center>
+		<div class="img-card">
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Agra Fort</center></b>
+				</div>
+				<img src="https://dj-shorturls.herokuapp.com/fc49a" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Red Fort</center></b>
+				</div>
+				<img src="https://dj-shorturls.herokuapp.com/d1f50" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Manali</center></b>
+				</div>
+				<img src="https://www.indiatravelpage.com/wp-content/uploads/2020/07/Manali-Summer-2.jpg" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Mussorie</center></b>
+				</div>
+				<img src="https://static.toiimg.com/photo/73123743/Mussoorie.jpg?width=748&resize=4" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Nanital</center></b>
+				</div>
+				<img src="https://yuwb2qoxsa1b.cdn.shift8web.ca/wp-content/uploads/2019/11/nainital.jpg" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Gopeshwar</center></b>
+				</div>
+				<img src="https://bugyalvalley.com/wp-content/uploads/2019/11/gopeshwar.jpg" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Chittor Garh</center></b>
+				</div>
+				<img src="https://www.kabiratours.com/wp-content/uploads/2018/04/chittorgarh-fort.jpg" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Lake Chilika</center></b>
+				</div>
+				<img src="https://thumbs.dreamstime.com/b/chilika-lake-odisha-state-india-sunrise-chilika-lake-odisha-state-india-golden-color-clouds-blue-sky-177614175.jpg" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+			<div class="sub-card">
+				<div id="headers">
+					<b><center>Meenakshi Temple</center></b>
+				</div>
+				<img src="https://th.bing.com/th/id/Rc50a9ea3c9d5298cd6d2127111a11d4e?rik=BKYhrdteJOMQew&riu=http%3a%2f%2flh3.googleusercontent.com%2f-s3xNadYNCXA%2fVg-sq3GkuUI%2fAAAAAAABHYc%2fH-MJS64umcc%2fmeenakshi-temple-2%2525255B5%2525255D.jpg%3fimgmax%3d800&ehk=f%2b%2b57sGuNk4MJvNkfsLOaH36jGJ7WjHRuF2Fbe7rIeM%3d&risl=&pid=ImgRaw" class="crd-img">
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<br>
 	<div class="card">
 		<br>
 		<div class="card-text">
@@ -64,13 +161,26 @@
 		</div>
 	</div>
 	<br><br>
-	<footer>
+	<footer id="tar_js">
 		<div class="footer-text">
 			<h3><center>Copyright © 2021-2025 @ <i>Shriyansh Purohit</i></center></h3>
 		</div>
-		<a href="https://www.github.com/pythonrailscoding/"><img src="images/github.png" class="img-footer"></a>
 		<a href="https://stackoverflow.com/users/15830701/shriyansh"><img src="images/stackoverflow.png" class="img-footer-stack"></a>
+		<a href="https://www.gitlab.com/pythonrailscoding/"><img src="images/gitlab.png" class="img-footer" style="padding-right: 7px;"></a>
+		<a href="https://www.github.com/pythonrailscoding/"><img src="images/github.png" class="img-footer" style="padding-right: 7px;"></a>
 		<br>
 	</footer>
+	<script type="text/javascript">
+		const btnScrollToTop = document.querySelector("#scrolltotop");
+		btnScrollToTop.addEventListener("click", function (){
+			//window.scrollTo({
+			//	top: 0,
+			//	left: 0,
+			//	behaviour: "smooth",
+			//});
+
+			$("html, body").animate({ scrollTop:0 }, "slow");
+		});
+	</script>
 </body>
 </html>
