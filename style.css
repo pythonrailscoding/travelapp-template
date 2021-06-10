@@ -210,6 +210,8 @@ footer {
 	font-size: 20;
 	color: rgba(13, 85, 13, 1);
 	font-weight: bold;
+	border-radius: 5px;
+	border: solid;
 }
 
 #in_em {
@@ -219,14 +221,17 @@ footer {
 	height: 20px;
 	color: rgba(13, 85, 13, 1);
 	font-weight: bold;
+	border-radius: 5px;
+	border: solid;
 }
 
 input:focus {
    outline: none;
    border-color: #26bf47;
-   box-shadow: 0 0 10px #26bf47;
+   box-shadow: 0 0 20px #26bf47;
    color: rgba(13, 85, 13, 1);
    font-weight: bolder;
+   border-color: rgba(13, 85, 13, 0.5);
 }
 
 textarea {
@@ -235,7 +240,9 @@ textarea {
 	width: 640px;
 	padding-left: 100px;
 	font-weight: bold;
-	color: rgba(13, 85, 13, 1);;
+	color: rgba(13, 85, 13, 1);
+	border-radius: 5px;
+	border: solid;
 }
 
 textarea:focus {
@@ -249,7 +256,7 @@ textarea:focus {
 #submit {
 	margin-left: 170px;
 	margin-top: 8px;
-	width: 69%;
+	width: 70.5%;
 	background-color: rgba(13, 85, 13, 0.8);
 	color: white;
 	font-weight: bold;
